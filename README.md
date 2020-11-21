@@ -28,12 +28,24 @@ Version 1.02 was designed by [Brad Prince](https://gitlab.com/custom_robots/spot
 
 ### Wiring
 
-TODO: PCA9685 to Nvidia Jetson Nano
-TODO: Servo positions
+* PCA9685 to Nvidia Jetson Nano
+
+```no-lang
+J41 Pin 1 (3v3) --> PCA9685 VCC
+J41 Pin 3 (SDA) --> PCA9685 SDA
+J41 Pin 5 (SCL) --> PCA9685 SCL
+J41 Pin 6 (GND) --> PCA9685 GND
+```
 
 ```bash
+sudo usermod -aG i2c $USER
+
+sudo apt install -y libi2c-dev
+
 i2cdetect -y -r 1
 ```
+
+* Servo positions
 
 ## Software
 
