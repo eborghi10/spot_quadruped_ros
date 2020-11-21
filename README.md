@@ -56,7 +56,6 @@ i2cdetect -y -r 1
 * [**champ** (branch: `development`)](https://github.com/eborghi10/champ/tree/development)
 * [**i2c_pwm_board** (branch: `master`)](https://github.com/eborghi10/i2c_pwm_board)
 * [**robots** (branch: `development`)](https://github.com/eborghi10/robots/tree/development)
-* [**spot_control_hw** (branch: `development`)](https://github.com/eborghi10/spot_control_hw/tree/development)
 * [**spotmicro_description** (branch: `development`)](https://github.com/eborghi10/spotmicro_description/tree/development)
 
 ### Calibration
