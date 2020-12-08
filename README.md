@@ -40,8 +40,6 @@ J41 Pin 6 (GND) --> PCA9685 GND
 ```bash
 sudo usermod -aG i2c $USER
 
-sudo apt install -y libi2c-dev
-
 i2cdetect -y -r 1
 ```
 
@@ -96,4 +94,4 @@ roslaunch champ_teleop teleop.launch
 
 ## External links
 
-Spot Micro AI community: [https://gitlab.com/custom_robots/spotmicroai]
+Spot Micro AI community: <https://gitlab.com/custom_robots/spotmicroai>
