@@ -16,8 +16,8 @@ This project is a modification for the SpotMicroAI quadruped project, a 4-legged
 There are a few modification but the baseline quadruped is the SpotMicroAI.
 The most important key points of this design:
 
-* It runs with ROS
-* It won't use super expensive motors but it will try to be energetically efficient
+- It runs with ROS
+- It won't use super expensive motors but it will try to be energetically efficient
 
 ## External links
 

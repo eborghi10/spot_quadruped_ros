@@ -1,4 +1,4 @@
-### Execution
+# Execution
 
 ```sh
 # Software bringup

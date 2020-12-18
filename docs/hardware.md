@@ -1,17 +1,17 @@
-## Hardware
+# Hardware
 
 - [Components](#components)
 - [Wiring](#wiring)
 
-### Components
+## Components
 
-* Nvidia Jetson Nano
-* PCA9685 16-channels PWM controller
-* 12 Hextronik HX-5010 servomotors
+- Nvidia Jetson Nano
+- PCA9685 16-channels PWM controller
+- 12 Hextronik HX-5010 servomotors
 
-### Wiring
+## Wiring
 
-* PCA9685 to Nvidia Jetson Nano (I2C Bus 1)
+- PCA9685 to Nvidia Jetson Nano (I2C Bus 1)
 
 ```no-lang
 J41 Pin 1 (3v3) --> PCA9685 VCC
@@ -26,11 +26,11 @@ sudo usermod -aG i2c $USER
 i2cdetect -y -r 1
 ```
 
-* Servo positions
+- Servo positions
 
-#### TODO: IMU pinout
+### TODO: IMU pinout
 
-* I2C Bus 0
+- I2C Bus 0
 
 SDA is on Pin 27
 SCL is on Pin 28
