@@ -41,3 +41,16 @@ SCL is on Pin 28
 ![T200](https://raspberrypiwiki.com/images/b/bc/T200-Interface-schematic.jpg)
 
 - How to read battery info via I2C: <http://raspberrypiwiki.com/T200_software>
+
+#### TODO
+
+- Connect external power switch (PH2.0)
+
+  1. SW => NO， GND => COM, 5V0 =>LED+，LED- => COM
+  2. (+) => SW , (-) => GND
+
+- Buy 5.5x2.5mm power jack
+- Use XH2.54 to power other devices
+- Read I2C information
+- Connect cable to 3d camera
+- Mount switch in robot
