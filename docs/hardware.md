@@ -6,6 +6,7 @@
 ## Components
 
 - Nvidia Jetson Nano
+- [18650 UPS HAT Shield for NVIDIA Jetson Nano](http://raspberrypiwiki.com/T200)
 - PCA9685 16-channels PWM controller
 - 12 Hextronik HX-5010 servomotors
 
@@ -34,3 +35,9 @@ i2cdetect -y -r 1
 
 SDA is on Pin 27
 SCL is on Pin 28
+
+### Powering NVIDIA Jetson Nano
+
+![T200](https://raspberrypiwiki.com/images/b/bc/T200-Interface-schematic.jpg)
+
+- How to read battery info via I2C: <http://raspberrypiwiki.com/T200_software>
