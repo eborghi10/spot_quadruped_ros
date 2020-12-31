@@ -7,6 +7,7 @@
 - [Hardware](docs/hardware.md)
 - [Software](docs/software.md)
 - [Execution](docs/execution.md)
+- [Simulation](docs/simulation.md)
 - [Future Work](https://github.com/eborghi10/spot_quadruped_ros/projects/1)
 - [External Links](#external-links)
 
